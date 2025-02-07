@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/css-gg.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="resources/logo.svg" type="image/svg" />
+    <title>Mi Sitio CCV</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="css/site.css">
+
+    <script src="js/SITE.js"></script>
+</head>
+
+<body>
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="resources/avatar-116x116-02-2x.png" id="photo-profile" class="my-photo" />
+                <div>
+                    <h1 class="title">ANGEL OSVALDO GONZALEZ ROJAS</h1>
+                    <div class="badge-profile">ESTUDIANTE</div>
+                    <div class="social">
+                        <a href="facebook.com" target="_blank"><i class="gg-facebook"></i></a>
+                        <a href="twitter.com" target="_blank"><i class="gg-twitter"></i></a>
+                        <a href="YouTube.com" target="_blank"><i class="gg-youtube"></i></a>
+                        <a href="pokemon-go.com"><i class="gg-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i>Septiembre 11 </li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i>Puebla, puebla</li>
+                        <li class="contacts-block-item"><i class="gg-mail"></i><a
+                                href="mailto:example@mail.com">grosva3@mail.com</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>22-15-58-23-58</li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i><a
+                                href="skype:skype-example">skype:OSVA-BB</a></li>
+                    </ul>
+                    <a class=" btn" href="#">Download CV</a>
+                </div>
+            </div>
+        </aside>
+        <section class="resume">
+            <header>
+                <div class="menu-circle">
+                    <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                </div>
+                <div class="inner-menu js-menu">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="index.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portafolio.html">Portafolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+            <h2 class="title bordered"> Portafolio </h2>
+            <div class="portfolio">
+                <img src="resources/Imagen de WhatsApp 2025-02-05 a las 22.48.08_049bbe8d.jpg" onclick="showImage(this)">
+                <img src="resources/Imagen de WhatsApp 2025-02-05 a las 22.48.08_9bb0bf6f.jpg" onclick="showImage(this)">
+                <img src="resources/Imagen de WhatsApp 2025-02-05 a las 22.48.08_e38281a0.jpg" onclick="showImage(this)">
+            <div class="modal" id="preview">
+             <button id="closeButton" class="gg-close" onclick="cerrarModal()"></button>
+            </div>
+            </div>         
+            <div>
+                
+            </section>
+        </div>
+        <footer>
+            Autor: ANGEL OSVALDO GONZALEZ ROJAS
+        </footer>
+        <div id="copyright" style="display:none;">2024 Osva.</div>
+</body>
+
+</html>
